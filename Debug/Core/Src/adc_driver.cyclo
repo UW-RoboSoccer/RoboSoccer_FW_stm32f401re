@@ -1,2 +1,0 @@
-../Core/Src/adc_driver.c:24:6:ADC_ReadAverage	6
-../Core/Src/adc_driver.c:53:6:HAL_ADC_ConvCpltCallback	3
