@@ -1,0 +1,41 @@
+# STM32CubeIDE build output folders
+/Debug/
+/Release/
+
+# STM32CubeIDE metadata and project settings
+/.settings/
+/.metadata/
+/RemoteSystemsTempFiles/
+
+# FreeRTOS build outputs (already covered by /Debug/ and /Release/ but extra safe)
+/Middlewares/Third_Party/FreeRTOS/Debug/
+/Middlewares/Third_Party/FreeRTOS/Release/
+
+# CubeMX backup and auto-generated artifacts
+Backup/
+*.ioc
+
+# Compiled object files and binaries
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.s
+
+# IDE-specific files (launch configs)
+*.launch
+
+# Logs and reports
+*.log
+
+# OS-specific clutter
+.DS_Store
+Thumbs.db
+
+# Optional: Exclude automatically generated .cproject/.project if you regenerate via CubeMX
+# (Comment these lines if you want to keep IDE projects in Git)
+/.cproject
+/.project
