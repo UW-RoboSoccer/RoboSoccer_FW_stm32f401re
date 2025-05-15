@@ -1,0 +1,2 @@
+../Core/Src/adc_driver.c:24:6:ADC_ReadAverage	32	static
+../Core/Src/adc_driver.c:53:6:HAL_ADC_ConvCpltCallback	16	static
